@@ -866,64 +866,96 @@ export const mockAccounts: Account[] = [
         amount_usd: 250.0
       },
       {
-        dateTime: "September 5, 2019",
-        description: "Transfer to Daniel Keller - XXXXXX8529",
-        status: "Success",
-        amount_usd: -175000.0,
+        dateTime: 'September 5, 2019',
+        description: 'Transfer to Daniel Keller - XXXXXX8529',
+        status: 'Success',
+        amount_usd: -175000.0
       },
       {
-        dateTime: "June 1, 2019",
-        description: "Transfer from Ava Lewis - XXXXXX4112",
-        status: "Success",
-        amount_usd: 388900.0,
+        dateTime: 'June 1, 2019',
+        description: 'Transfer from Ava Lewis - XXXXXX4112',
+        status: 'Success',
+        amount_usd: 388900.0
       },
       {
-        dateTime: "March 20, 2019",
-        description: "Transfer to Maxime Lefevre - XXXXXX0734",
-        status: "Success",
-        amount_usd: -29500.0,
+        dateTime: 'March 20, 2019',
+        description: 'Transfer to Maxime Lefevre - XXXXXX0734',
+        status: 'Success',
+        amount_usd: -29500.0
       },
       {
-        dateTime: "December 12, 2018",
-        description: "Transfer from Oliver Hall - XXXXXX9001",
-        status: "Success",
-        amount_usd: 485500.0,
+        dateTime: 'December 12, 2018',
+        description: 'Transfer from Oliver Hall - XXXXXX9001',
+        status: 'Success',
+        amount_usd: 485500.0
       },
       {
-        dateTime: "October 6, 2018",
-        description: "Transfer fee - XXXXXX2635",
-        status: "Success",
-        amount_usd: -50.5,
+        dateTime: 'October 6, 2018',
+        description: 'Transfer fee - XXXXXX2635',
+        status: 'Success',
+        amount_usd: -50.5
       },
       {
-        dateTime: "September 15, 2018",
-        description: "Transfer to Amelia Rossi - XXXXXX5288",
-        status: "Success",
-        amount_usd: -67800.0,
+        dateTime: 'September 15, 2018',
+        description: 'Transfer to Amelia Rossi - XXXXXX5288',
+        status: 'Success',
+        amount_usd: -67800.0
       },
       {
-        dateTime: "July 30, 2018",
-        description: "Transfer from Lucas White - XXXXXX7642",
-        status: "Success",
-        amount_usd: 15200.0,
+        dateTime: 'July 30, 2018',
+        description: 'Transfer from Lucas White - XXXXXX7642',
+        status: 'Success',
+        amount_usd: 15200.0
       },
       {
-        dateTime: "June 12, 2018",
-        description: "VAT Fee - XXXXXX0733",
-        status: "Success",
-        amount_usd: -100.75,
+        dateTime: 'June 12, 2018',
+        description: 'VAT Fee - XXXXXX0733',
+        status: 'Success',
+        amount_usd: -100.75
       },
       {
-        dateTime: "May 3, 2018",
-        description: "Transfer to Sophia Schneider - XXXXXX9835",
-        status: "Success",
-        amount_usd: -458000.0,
+        dateTime: 'May 3, 2018',
+        description: 'Transfer to Sophia Schneider - XXXXXX9835',
+        status: 'Success',
+        amount_usd: -458000.0
       },
       {
-        dateTime: "February 10, 2018",
-        description: "Transfer from James Anderson - XXXXXX3377",
-        status: "Success",
-        amount_usd: 238000.0,
+        dateTime: 'February 10, 2018',
+        description: 'Transfer from James Anderson - XXXXXX3377',
+        status: 'Success',
+        amount_usd: 238000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC005',
+    holder: {
+      fullName: 'David Harvey',
+      mobileNumber: '***-***-****',
+      email: 'd*@gmail.com',
+      dateCreated: '6/8/2025', // m/d/y
+      username: 'Davidharvey',
+      password: '679388988'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      current_account: 'current_account',
+      balance_usd: 3000000.0,
+      onHold: true
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '235665',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance heritagebnkcustomercare@outlook.com.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'June 8, 2025',
+        description: 'Direct Deposit Inheritance IRS - XXXXXX28283',
+        status: 'Pending',
+        amount_usd: 3000000.0
       }
     ]
   }

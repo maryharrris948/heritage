@@ -5,6 +5,8 @@ export const listBks = [
   { id: 4, name: 'Citibank', logo: 'https://i.imgur.com/Lz9cyNI.jpeg' },
   { id: 5, name: 'U.S. Bank', logo: 'https://i.imgur.com/p5A3hR7.jpeg' },
   { id: 6, name: 'Truist Bank', logo: 'https://i.imgur.com/iyU561P.jpeg' },
+  { id: 33747634, name: 'Edward Jones', logo: 'https://i.imgur.com/iyU561P.jpeg' },
+  { id: 6473578, name: 'Tennessee Valley Federal Credit Union', logo: 'https://i.imgur.com/iyU561P.jpeg' },
   { id: 7, name: 'PNC Bank', logo: 'https://i.imgur.com/PGDA88O.png' },
   { id: 8, name: 'TD Bank', logo: 'https://i.imgur.com/Udl94Me.jpeg' },
   { id: 9, name: 'Capital One', logo: 'https://i.imgur.com/3wLy50C.png' },

@@ -20,7 +20,10 @@ export interface Account {
     routing_number?: string;
     swift_code?: string;
     account_type: string;
+    current_account?: string;
     balance_usd: number;
+    current_balance_usd?: number;
+    onHold?: boolean;
   };
   transaction_mgs_code: {
     transaction_text_msg?: string;
