@@ -933,7 +933,7 @@ export const mockAccounts: Account[] = [
       fullName: 'David Harvey',
       mobileNumber: '***-***-****',
       email: 'd*@gmail.com',
-      dateCreated: '6/8/2025', // m/d/y
+      dateCreated: '6/9/2025', // m/d/y
       username: 'Davidharvey',
       password: '679388988'
     },
@@ -945,7 +945,7 @@ export const mockAccounts: Account[] = [
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
-      transaction_code: '235665',
+      transaction_code: '56789',
       headerText: 'Dear Valued Customer,',
       lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance heritagebnkcustomercare@outlook.com.',
       wireDate: true
