@@ -108,9 +108,10 @@ export default function Transfer() {
     if (step === 1) {
       if (!formData.routingNumber) {
         errors.routingNumber = 'Account number is required';
-      } else if (formData.routingNumber.length !== 8) {
-        errors.routingNumber = 'Account number must be 8 digits';
+      } else if (formData.routingNumber.length < 8 || formData.routingNumber.length > 14) {
+        errors.routingNumber = 'Account number must be between 8 and 14 digits';
       }
+
       if (!formData.selectedBank) errors.selectedBank = 'Bank selection is required';
     } else if (step === 2) {
       if (!formData.amount) errors.amount = 'Amount is required';
