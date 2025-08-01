@@ -958,5 +958,145 @@ export const mockAccounts: Account[] = [
         amount_usd: 3000000.0
       }
     ]
+  },
+  {
+    account_id: 'ACC006',
+    holder: {
+      fullName: 'Elizabeth Meadore W.',
+      mobileNumber: '***-***-****',
+      email: 'e*@gmail.com',
+      dateCreated: '8/1/2025', // m/d/y
+      username: 'elizabethmw85',
+      password: 'WilsonEli@276'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      current_account: 'current_account',
+      balance_usd: 2205400.0,
+      onHold: false
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '56789',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'July 30, 2025',
+        description: 'Transfer from Quanta Services Inc - XXXXXX4421',
+        status: 'Success',
+        amount_usd: 2200.0
+      },
+      {
+        dateTime: 'July 25, 2025',
+        description: 'Transfer from Stellar Innovations Co. - - XXXXXX9853',
+        status: 'Success',
+        amount_usd: 3500.0
+      },
+      {
+        dateTime: 'July 22, 2025',
+        description: 'Transfer from D&D Building - XXXXXX1123',
+        status: 'Success',
+        amount_usd: 5500.0
+      },
+      {
+        dateTime: 'July 10, 2025',
+        description: 'Transfer from Apex Mills - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 2500.0
+      },
+      {
+        dateTime: 'December 8, 2024',
+        description: 'Transfer from Apex Mills - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 7500.0
+      },
+      {
+        dateTime: 'December 6, 2024',
+        description: 'Transfer from UK Textile GB LTD - XXXXXX3476',
+        status: 'Success',
+        amount_usd: 6000.0
+      },
+      {
+        dateTime: 'November 2, 2024',
+        description: 'Transfer from Apex Mills - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 7000.0
+      },
+      {
+        dateTime: 'August 30, 2024',
+        description: 'Transfer from UK Textile GB LTD - XXXXXX2634',
+        status: 'Success',
+        amount_usd: 500.0
+      },
+      {
+        dateTime: 'August 5, 2024',
+        description: 'Transfer from Anza Textile OYA - XXXXXX7742',
+        status: 'Success',
+        amount_usd: 500.0
+      },
+      {
+        dateTime: 'June 10, 2024',
+        description: 'Transfer from Apex Mills - XXXXXX8324',
+        status: 'Success',
+        amount_usd: 2200.0
+      },
+      {
+        dateTime: 'December 30, 2023',
+        description: 'Transfer from Isabella Dubois - XXXXXX3155',
+        status: 'Success',
+        amount_usd: 29500.0
+      },
+      {
+        dateTime: 'December 10, 2023',
+        description: 'Transfer from Jack Thompson - XXXXXX7298',
+        status: 'Success',
+        amount_usd: 12050.0
+      },
+      {
+        dateTime: 'November 2, 2023',
+        description: 'Transfer from Amelia Müller - XXXXXX4730',
+        status: 'Success',
+        amount_usd: 21000.0
+      },
+      {
+        dateTime: 'October 15, 2023',
+        description: 'Transfer from Liam Martin - XXXXXX1110',
+        status: 'Success',
+        amount_usd: 9000.0
+      },
+      {
+        dateTime: 'September 10, 2023',
+        description: 'Transfer from Benjamin Clark - XXXXXX7623',
+        status: 'Success',
+        amount_usd: 290000.0
+      },
+      {
+        dateTime: 'August 4, 2023',
+        description: 'Transfer from Ava Schmidt - XXXXXX9072',
+        status: 'Success',
+        amount_usd: 15700.0
+      },
+      {
+        dateTime: 'July 7, 2023',
+        description: 'Transfer from Grace Evans - XXXXXX6366',
+        status: 'Success',
+        amount_usd: 110000.0
+      },
+      {
+        dateTime: 'May 12, 2023',
+        description: 'Transfer from Julian Weber - XXXXXX3449',
+        status: 'Success',
+        amount_usd: 240500.0
+      },
+      {
+        dateTime: 'March 3, 2023',
+        description: 'Transfer from Charlotte White - XXXXXX9800',
+        status: 'Success',
+        amount_usd: 70000.0
+      }
+    ]
   }
 ];
