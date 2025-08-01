@@ -989,42 +989,6 @@ export const mockAccounts: Account[] = [
         amount_usd: 2200.0
       },
       {
-        dateTime: 'July 25, 2025',
-        description: 'Deposit - XXXXXX9621',
-        status: 'Success',
-        amount_usd: 3500.0
-      },
-      {
-        dateTime: 'July 22, 2025',
-        description: 'Deposit - XXXXXX1285',
-        status: 'Success',
-        amount_usd: 5500.0
-      },
-      {
-        dateTime: 'July 10, 2025',
-        description: 'Deposit - XXXXXX7409',
-        status: 'Success',
-        amount_usd: 2500.0
-      },
-      {
-        dateTime: 'December 8, 2024',
-        description: 'Deposit - XXXXXX4173',
-        status: 'Success',
-        amount_usd: 7500.0
-      },
-      {
-        dateTime: 'December 6, 2024',
-        description: 'Deposit - XXXXXX6859',
-        status: 'Success',
-        amount_usd: 6000.0
-      },
-      {
-        dateTime: 'November 2, 2024',
-        description: 'Deposit - XXXXXX5312',
-        status: 'Success',
-        amount_usd: 7000.0
-      },
-      {
         dateTime: 'August 30, 2024',
         description: 'Deposit - XXXXXX2468',
         status: 'Success',
@@ -1044,151 +1008,151 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'December 30, 2020',
-        description: 'Deposit - XXXXXX3741',
+        description: 'Transfer from Olivia Bennett - XXXXXX3741',
         status: 'Success',
         amount_usd: 29500.0
       },
       {
         dateTime: 'December 10, 2020',
-        description: 'Deposit - XXXXXX8295',
+        description: 'Transfer from Ethan Parker - XXXXXX8295',
         status: 'Success',
         amount_usd: 12050.0
       },
       {
         dateTime: 'November 2, 2020',
-        description: 'Deposit - XXXXXX6418',
+        description: 'Transfer from Sophia Martinez - XXXXXX6418',
         status: 'Success',
         amount_usd: 21000.0
       },
       {
         dateTime: 'October 15, 2020',
-        description: 'Deposit - XXXXXX0592',
+        description: 'Transfer from Liam Johnson - XXXXXX0592',
         status: 'Success',
         amount_usd: 9000.0
       },
       {
         dateTime: 'September 10, 2020',
-        description: 'Deposit - XXXXXX4876',
+        description: 'Transfer from Emma Wilson - XXXXXX4876',
         status: 'Success',
         amount_usd: 290000.0
       },
       {
         dateTime: 'August 4, 2020',
-        description: 'Deposit - XXXXXX1937',
+        description: 'Transfer from Noah Davis - XXXXXX1937',
         status: 'Success',
         amount_usd: 15700.0
       },
       {
         dateTime: 'July 7, 2020',
-        description: 'Deposit - XXXXXX3629',
+        description: 'Transfer from Ava Thompson - XXXXXX3629',
         status: 'Success',
         amount_usd: 110000.0
       },
       {
         dateTime: 'May 12, 2020',
-        description: 'Deposit - XXXXXX7041',
+        description: 'Transfer from Lucas Brown - XXXXXX7041',
         status: 'Success',
         amount_usd: 240500.0
       },
       {
         dateTime: 'March 3, 2020',
-        description: 'Deposit - XXXXXX2850',
+        description: 'Transfer from Mia Anderson - XXXXXX2850',
         status: 'Success',
         amount_usd: 70000.0
       },
       {
         dateTime: 'December 25, 2019',
-        description: 'Deposit - XXXXXX8372',
+        description: 'Transfer from Henry Clark - XXXXXX8372',
         status: 'Success',
         amount_usd: 17500.0
       },
       {
         dateTime: 'November 13, 2019',
-        description: 'Deposit - XXXXXX4915',
+        description: 'Transfer from Lily Carter - XXXXXX4915',
         status: 'Success',
         amount_usd: 23000.0
       },
       {
         dateTime: 'October 29, 2019',
-        description: 'Deposit - XXXXXX2647',
+        description: 'Transfer from James Hall - XXXXXX2647',
         status: 'Success',
         amount_usd: 9200.0
       },
       {
         dateTime: 'September 10, 2019',
-        description: 'Deposit - XXXXXX1583',
+        description: 'Transfer from Grace Lewis - XXXXXX1583',
         status: 'Success',
         amount_usd: 48000.0
       },
       {
         dateTime: 'August 6, 2019',
-        description: 'Deposit - XXXXXX7031',
+        description: 'Transfer from Benjamin Scott - XXXXXX7031',
         status: 'Success',
         amount_usd: 30500.0
       },
       {
         dateTime: 'July 19, 2019',
-        description: 'Deposit - XXXXXX4602',
+        description: 'Transfer from Harper Adams - XXXXXX4602',
         status: 'Success',
         amount_usd: 15400.0
       },
       {
         dateTime: 'December 3, 2018',
-        description: 'Deposit - XXXXXX4921',
+        description: 'Transfer from Samuel Nelson - XXXXXX4921',
         status: 'Success',
         amount_usd: 32000.0
       },
       {
         dateTime: 'November 18, 2018',
-        description: 'Deposit - XXXXXX1847',
+        description: 'Transfer from Ella Turner - XXXXXX1847',
         status: 'Success',
         amount_usd: 12500.0
       },
       {
         dateTime: 'October 5, 2018',
-        description: 'Deposit - XXXXXX6390',
+        description: 'Transfer from Alexander Rivera - XXXXXX6390',
         status: 'Success',
         amount_usd: 27000.0
       },
       {
         dateTime: 'September 14, 2018',
-        description: 'Deposit - XXXXXX7512',
+        description: 'Transfer from Scarlett Mitchell - XXXXXX7512',
         status: 'Success',
         amount_usd: 15000.0
       },
       {
         dateTime: 'August 23, 2018',
-        description: 'Deposit - XXXXXX8603',
+        description: 'Transfer from Daniel Perez - XXXXXX8603',
         status: 'Success',
         amount_usd: 17800.0
       },
       {
         dateTime: 'July 8, 2018',
-        description: 'Deposit - XXXXXX3459',
+        description: 'Transfer from Aria Coleman - XXXXXX3459',
         status: 'Success',
         amount_usd: 22000.0
       },
       {
         dateTime: 'June 15, 2018',
-        description: 'Deposit - XXXXXX9704',
+        description: 'Transfer from Matthew Nguyen - XXXXXX9704',
         status: 'Success',
         amount_usd: 9500.0
       },
       {
         dateTime: 'May 2, 2018',
-        description: 'Deposit - XXXXXX5138',
+        description: 'Transfer from Zoey Ramirez - XXXXXX5138',
         status: 'Success',
         amount_usd: 13500.0
       },
       {
         dateTime: 'March 29, 2018',
-        description: 'Deposit - XXXXXX6287',
+        description: 'Transfer from Jack Murphy - XXXXXX6287',
         status: 'Success',
         amount_usd: 18700.0
       },
       {
         dateTime: 'January 12, 2018',
-        description: 'Deposit - XXXXXX7920',
+        description: 'Transfer from Layla Brooks - XXXXXX7920',
         status: 'Success',
         amount_usd: 25000.0
       }
