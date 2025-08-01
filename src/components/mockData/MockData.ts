@@ -963,7 +963,6 @@ export const mockAccounts: Account[] = [
     account_id: 'ACC006',
     holder: {
       fullName: 'Elizabeth Meadore W.',
-      mobileNumber: '***-***-****',
       email: 'e*@gmail.com',
       dateCreated: '8/1/2025', // m/d/y
       username: 'elizabethmw85',
