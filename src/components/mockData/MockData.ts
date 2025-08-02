@@ -983,6 +983,12 @@ export const mockAccounts: Account[] = [
     },
     transaction_history: [
       {
+        dateTime: 'August 4, 2025',
+        description: 'Transfer to Rogier Gerritsen - XXXXXX4661',
+        status: 'Success',
+        amount_usd: 2200000.0
+      },
+      {
         dateTime: 'July 30, 2025',
         description: 'Deposit - XXXXXX3748',
         status: 'Success',
