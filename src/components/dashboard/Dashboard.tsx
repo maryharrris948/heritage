@@ -78,7 +78,7 @@ export default function Dashboard() {
             </div>
             <div className="flex items-center justify-between">
               <div className="flex flex-col">
-                <span className="font-[400] text-2xl">{hideBalance ? '******' : `${formatCurrency(user.bank_details.balance_usd)}`}</span>
+                <span className="font-[400] text-xl xxs:text-2xl">{hideBalance ? '******' : `${formatCurrency(user.bank_details.balance_usd)}`}</span>
                 {user.bank_details.onHold && <span className="text-sm italic font-semibold text-[#f7f440]">On Hold</span>}
               </div>
               <Link href="/dashboard/transfer" className="p-[5px_20px] rounded-full bg-white text-[#14509B] text-[14px]">

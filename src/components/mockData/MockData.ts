@@ -985,7 +985,7 @@ export const mockAccounts: Account[] = [
       {
         dateTime: 'August 4, 2025',
         description: 'Transfer to Rogier Gerritsen - XXXXXX4661',
-        status: 'Pending',
+        status: 'On Hold',
         amount_usd: 2200000.0
       },
       {
